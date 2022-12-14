@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+
+#home{
+  min-height: 92.5vh;
+  /* color: white; */
+  background-image: url('../src/Images/welcome_background12.jpg');
+  background-repeat: no-repeat;
+  background-position-x:right;
+  background-position-y: center;
+  
+}
+
+#about{
+  background-color: #000524;
+  padding-top: 8vh;
+  min-height: 50vh;
+  display: block;
+}
+
+#resume{
+  /* background-color: rgb(241, 241, 238); */
+  background-color: white;
+  color: #282c34;
+  padding-top: 8vh;
+  min-height: 92.5vh;
+  display: block;
+}
+
+#projects{
+  background-color:#ebeeee;
+  padding-top: 8vh;
+  min-height: 92.5vh;
+  display: block;
+  
+}
+
+#contact{
+  background: rgb(174,183,238);
+  background: radial-gradient(circle, rgba(174,183,238,1) 0%, rgba(148,228,233,1) 100%);
+  padding-top: 8vh;
+  min-height: 95vh;
+
+}
+
+body{
+  background-color: #302f2f;
+  color: white;
+}
+
+html{
+  scroll-behavior: smooth !important;
+  background-color: rgb(231, 196, 165);
+}
+
+
+.appBar{
+  position:sticky;
+  top: 0;
+  background-color: none ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+#headerLink{
+  text-decoration: none;
+  color: rgb(243, 242, 241);
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#time{
+  font-style: italic;
+  font-size:85%;
+}
