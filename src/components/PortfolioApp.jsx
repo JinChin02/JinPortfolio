@@ -1,4 +1,4 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import Header from './Header'
 import Contact from './Contact'
 import About from './About'
@@ -8,6 +8,10 @@ import Resume from './Resume';
 import Data from '../Data/data.json'
 
 export default function PortfolioApp() {
+
+  useEffect(()=>{
+    document.title = "Jin Hung Chin's Portfolio"
+  },[])
 
   return (
     <div>
