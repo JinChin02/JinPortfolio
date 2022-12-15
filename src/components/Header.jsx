@@ -1,7 +1,6 @@
 import * as React from 'react';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import { Outlet } from 'react-router-dom';
 
 const pages = ['home','about', 'resume', 'projects', 'contact'];
 
@@ -14,7 +13,7 @@ const Header = () => {
           {pages.map((page) => {
 
             let fullPath = "#"
-            if(page != "home"){
+            if(page !== "home"){
               fullPath = "#" + page
             }
             return <Button
@@ -26,7 +25,6 @@ const Header = () => {
                 </Button>
           })}
         </Container>
-        <Outlet/>
 
 
     </div>

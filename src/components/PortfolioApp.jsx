@@ -1,6 +1,5 @@
-import React, { useState,useEffect} from 'react'
+import React from 'react'
 import Header from './Header'
-import {BrowserRouter as Router, Routes , Route} from 'react-router-dom';
 import Contact from './Contact'
 import About from './About'
 import Projects from './Projects'
@@ -10,8 +9,6 @@ import Data from '../Data/data.json'
 
 export default function PortfolioApp() {
 
-
- 
   return (
     <div>
         <Header />

@@ -5,12 +5,15 @@ import Card from '@mui/material/Card';
 import Typography from '@mui/material/Typography';
 import CardContent from '@mui/material/CardContent';
 import Container from '@mui/material/Container';
-
+import Canine from '../Images/Canine.JPG'
+import Morph from '../Images/Morph.JPG'
+import Tim from '../Images/Tim.JPG'
+import HackHunt from '../Images/HackHunt.JPG'
 
 export default function Projects(props) {
 
   let project = props.data.resume.projects
-
+  const imgs = [Canine,HackHunt,Morph,Tim]
   const linkGithub = (url) => {
     window.open(url, '_blank')
   }
@@ -20,7 +23,7 @@ export default function Projects(props) {
         <Container sx={{ py: 4}} maxWidth="lg">
           <Typography sx={{color:'#95A3A3', fontFamily:'opensans-semibold', height:60}}> CHECK OUT SOME OF MY WORKS. </Typography>
           <Grid container spacing={4}>
-              {project.map((items) => (
+              {project.map((items, index) => (
               <Grid item key={items.projectName} xs={12} sm={6} md={4} lg={6}>
                   <Card
                   className="card"
@@ -36,7 +39,7 @@ export default function Projects(props) {
                           objectFit:"cover",
                           objectPosition:"left"
                       }}
-                      image={items.url}
+                      image={imgs[index]}
                       alt="random"
                   />
                   <CardContent sx={{ flexGrow: 1, color:'#95A3A3', fontFamily:'opensans-semibold' }}>

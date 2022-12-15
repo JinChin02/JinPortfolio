@@ -1,4 +1,5 @@
 {
+
     "main" : {
         "selfIntro" : " I am Jin Hung Chin, a Computer and Information System graduate with approximately 2.5 years of academic programming experience. Capable of developing Frontend and Backend applications or performing full stack MERN development.",
         "background" : " I used to be a Formation Evaluation Geologist and Project Coordinator working in Oil and Gas sector for 7 years. Over the years of working, I have been dealing with tons of operation data daily which then lead me towards the path of SQL programming. Since then, my interest in programming starts to grow and have been learning programming on my own. \nCovid outbreak in 2020 bestowed me with an opportunity to learn programming systematically. I enrolled in Computing and System Information with Douglas College and have graduated recently. Now, I am ready to start on my journey in the programming world.  "
@@ -45,28 +46,24 @@
         ],
         "projects" : [
             {
-                "url" : "../Images/Canine.JPG",
                 "projectName" : "Canine Life Matter",
                 "description" : "Full stack web development project using React, Spring MVC, Node Js, mySQL and integration with several APIs such as RESTful API, GoogleMap API, Payment API etc.",
                 "gitUrl": "https://github.com/JinChin02/CanineLifeMatter.git"
                 
             },
             {
-                "url" : "../Images/HackHunt.JPG",
                 "projectName" : "Hack Hunt",
                 "description" : "A mobile application developement project developed using Android Studio integrating with AWS Parse server database, and local SQLite database.",
                 "gitUrl": "https://github.com/ariayingdeng/F21G2_HackHunt.git"
             },
         
             {
-                "url" : "../Images/Morph.JPG",
                 "projectName" : "Morph",
                 "description" : "A web developement project developed on top of Springboot integrating with Spring MVC architecture, H2 database, RESTful API along with GitHub to achieve agile development strategy.",
                 "gitUrl": "https://github.com/ariayingdeng/ProjectMorph.git"
             },
         
             {
-                "url" : "../Images/Tim.JPG",
                 "projectName" : "Tim Star",
                 "description" : "A web application developed with vanilla HTML, CSS and Javascript",
                 "gitUrl": "https://github.com/JinChin02/1280_TravelProject.git"
