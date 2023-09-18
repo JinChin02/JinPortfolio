@@ -53,16 +53,20 @@ export default function Contact() {
               FIND ME AT
             </Typography>
             <Typography variant="body4" color="text.secondary">
-              Phone Number : (+1)778 513 8306 <br />
+              Phone Number : (+60)14 994 2486 <br />
               Email : chinjinhung@gmail.com <br /> <br />
               <strong>OR</strong>
             </Typography>
           </CardContent>
 
           <CardActions sx={{ marginX: 66 }}>
-            {/* <Button onClick={linPage}>
-              <img src={Lin} alt="linkedin" style={{ height:80,objectFit:'scale-down'}} />
-            </Button> */}
+            <Button onClick={linPage}>
+              <img
+                src={Lin}
+                alt="linkedin"
+                style={{ height: 80, objectFit: "scale-down" }}
+              />
+            </Button>
             <Button onClick={gitPage}>
               <img src={Git} alt="github" style={{ height: 80 }} />
             </Button>
