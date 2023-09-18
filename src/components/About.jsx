@@ -13,7 +13,7 @@ export default function About(props) {
   const download = () => {
     //window.location.href = 'https://drive.google.com/file/d/11CIwaCp6LOIZVNEPDgHY-J2bC-fcvIhM/view';
     const url1 =
-      "https://drive.google.com/file/d/10I7yzpMeYbyQ28E9oXGGR13IoO4OFwng/view?usp=drive_link";
+      "https://drive.google.com/file/d/1A17oWkYMIJSFei78dK5C8agP21OftaR8/view?usp=sharing";
     window.open(url1, "_blank");
   };
 
