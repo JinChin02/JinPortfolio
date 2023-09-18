@@ -53,7 +53,7 @@ export default function Contact() {
               FIND ME AT
             </Typography>
             <Typography variant="body4" color="text.secondary">
-              Phone Number : (+60)14 994 2486 <br />
+              Phone Number : (+60)14 934 2486 <br />
               Email : chinjinhung@gmail.com <br /> <br />
               <strong>OR</strong>
             </Typography>
